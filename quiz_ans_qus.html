@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="icon" href="img/index.ico" sizes="60x60">
+
+    <title>Quiz play</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body style="background-color: cyan; padding: 20px;"> 
+    <div id="loading">
+      <img id="loading-image"  src="img/index.gif">
+    </div>
+    <center><h3 style="color: red;"><marquee behavior="fast" style="margin-top: 10px;" direction=""> Please do not refresh the page</marquee></h3></center>
+    <div id="div1">
+        <p id="p1">Question 1 from 10</p>
+    <center><i>meaning of &lt;i&#62;&lt;/i&#62;</i>
+     <input type="text" class="form-control" id="textbox1" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+  </center>
+    <button class="btn btn-warning" id="btn1" style= "border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">submit ans</button>
+</div>
+<div class="d-none" id="div2">
+    <p id="p2">Question  from 10</p>
+    <center><i>meaning of &lt;a&#62;&lt;/a&#62;</i>
+      <input type="text" class="form-control" id="textbox2" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+   </center>
+    <button class="btn btn-warning" id="btn2" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div3">
+    <p id="p3">Question  from 10</p>
+    <center><i>meaning of &lt;button&#62;&lt;/button&#62;</i>
+      <input type="text" class="form-control" id="textbox3" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+   </center>
+    <button class="btn btn-warning" id="btn3" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div4">
+  <p id="p4">Question  from 10</p>
+  <center><i>meaning of &lt;tr&#62;&lt;/tr&#62;</i>
+    <input type="text" class="form-control" id="textbox4" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn4" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div> 
+<div class="d-none" id="div5">
+  <p id="p5">Question  from 10</p>
+  <center><i>meaning of &lt;br&#62;</i>
+    <input type="text" class="form-control" id="textbox5" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn5" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div6">
+  <p id="p6">Question  from 10</p>
+  <center><i>meaning of &lt;input type="text"&#62;</i>
+    <input type="text" class="form-control" id="textbox6" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn6" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div7">
+  <p id="p7">Question  from 10</p>
+  <center><i>meaning of &lt;div&#62;&lt;/div&#62;</i>
+    <input type="text" class="form-control" id="textbox7" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn7" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div8">
+  <p id="p8">Question  from 10</p>
+  <center><i>meaning of href="p.html"</i>
+    <input type="text" class="form-control" id="textbox8" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn8" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div9">
+  <p id="p9">Question  from 10</p>
+  <center><i>meaning of &lt;p&#62;&lt;/p&#62;</i>
+    <input type="text" class="form-control" id="textbox9" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn9" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+<div class="d-none" id="div10">
+  <p id="p10">Question  from 10</p>
+  <center><i>meaning of &lt;stronge&#62;&lt;/stronge&#62;</i>
+    <input type="text" class="form-control" id="textbox10" placeholder="Enter ans" style="width: 20%; margin-top: 20px;">
+ </center>
+  <button class="btn btn-warning" id="btn10" style="border-radius: 30px; width: 10%; margin-top: 45px; margin-left: 37%;">Submit ans</button>
+</div>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" --> 
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="ajeax.js"></script>
+        <script>
+          $(document).ready(function(){
+            p_change()
+          })
+          var timeleft = 2;
+var downloadTimer = setInterval(function(){
+  if(timeleft <= 0){
+    clearInterval(downloadTimer);
+   $("#loading").hide('slow');
+  } 
+  timeleft -= 1;
+}, 1000);
+        </script>
+  </body>
+</html>
